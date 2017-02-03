@@ -1,0 +1,23 @@
+We created a CLI on the client Computer. The Client runs an apache server as well 
+as an mysql server. The client uses the Windows version of "Curl" 
+which is a commonly used linux command. By using this command, one can send HTTP messages. It 
+supports POST and GET as well as a variety of encoding schemes. In our setup we used POST to send data.
+The data itself is encoded in JSON.
+
+The ClI features two commands. In the first command, a new machine is added. The parameter of this 
+command is the name of the server to be created:
+
+PLEASE PUT THE SYNTAX OF THE COMMAND IN HERE よろしく
+
+No answer is received.
+
+The second command enquires about all servers:
+
+PLEASE PUT THE SYNTAX OF THE COMMAND IN HERE よろしく
+
+The answer consists of a all servers which are currently running and it is encoded in JSON. 
+It is send to a PHP file on the client. This file reads the JSON data, converts it and
+enters it into a mysql database. The data of this mysql database can be read with a second PHP-script
+which is accessible from the web.
+
+33E16024
